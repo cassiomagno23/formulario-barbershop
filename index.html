@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Gentlemen's</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img src="./images/barber.svg" alt="" />
+      </div>
+      <div class="form-container">
+        <h2>WELCOME BACK TO</h2>
+        <img src="./images/barber-icon.svg" alt="" />
+        <form action="#">
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Digite seu email"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="senha">Password</label>
+            <input
+              type="password"
+              id="senha"
+              name="senha"
+              placeholder="Digite a sua senha"
+              required
+            />
+          </div>
+          <div id="under-password">
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Rememeber for 30 days</label>
+            <a href="#">Forgot password</a>
+          </div>
+
+          <div class="input-group signin1">
+            <button>Sign in</button>
+          </div>
+          <div class="input-group signin2">
+            <button>
+              <img src="./images/google-icon.svg" alt="" /> Sign in with google
+            </button>
+          </div>
+          <div class="signup">
+            <p>OR</p>
+            <a href="#">Sign up for free</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./javascript/script"></script>
+  </body>
+</html>
